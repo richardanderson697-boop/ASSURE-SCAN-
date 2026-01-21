@@ -1,0 +1,13 @@
+assure-scanner/
+├── frontend/                # Your React/Next.js app
+│   └── src/components/AssureScannerDashboard.jsx
+├── backend/                 # FastAPI Application
+│   ├── app/
+│   │   ├── api/             # Route handlers (v1)
+│   │   ├── core/            # Auth0 config & Security middleware
+│   │   ├── services/        # RAG Logic & Claude API calls
+│   │   ├── models/          # SQLAlchemy/PostgreSQL schemas
+│   │   └── main.py          # Entry point
+│   ├── requirements.txt
+│   └── .env
+└── docker-compose.yml       # For local Postgres & Kafka
