@@ -1,9 +1,3 @@
 {
-  "builder": "RAILPACK",
-  "build": {
-    "aptPackages": ["libpq-dev", "gcc", "python3-dev"]
-  },
-  "deploy": {
-    "startCommand": "uvicorn main:app --host 0.0.0.0 --port $PORT --workers 2"
-  }
+  "startCommand": "uvicorn main:app --host 0.0.0.0 --port $PORT --workers 2"
 }
