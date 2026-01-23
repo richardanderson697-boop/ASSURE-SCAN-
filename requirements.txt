@@ -8,11 +8,13 @@ pydantic==2.9.2
 # Anthropic / Claude
 anthropic==0.20.0
 
-# LangChain (updated versions for better compatibility)
-langchain==0.3.0
-langchain-community==0.3.0
-langchain-openai==0.2.0
+# LangChain (Pinned for compatibility with langchain-postgres)
+langchain>=0.2.0,<0.3.0
+langchain-community>=0.2.0,<0.3.0
+langchain-core>=0.2.0,<0.3.0
+langchain-openai>=0.1.0,<0.2.0
 langchain-postgres==0.0.9
+
 
 # Postgres & Vector DB
 psycopg2-binary==2.9.10
