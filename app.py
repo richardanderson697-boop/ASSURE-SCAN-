@@ -1,5 +1,4 @@
-# app.py - Dummy redirect file for Railway hardcoded command
-# This tricks Railway into finding 'app' while running the real main.py
+
 
 from main import app  # Import the FastAPI instance from your real main.py
 
